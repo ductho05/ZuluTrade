@@ -29,9 +29,9 @@ function LoginForm() {
                 className="flex items-center mt-[50px] shadow-none"
                 icon={
                     <Image src={GOOGLE_ICON} style={{
-                        width: '20px',
-                        height: '20px',
-                        objectFit: 'cover'
+                        width: "20px",
+                        height: "20px",
+                        objectFit: "cover"
                     }} />
                 }>
                 Login with google
@@ -39,12 +39,12 @@ function LoginForm() {
             <div className="my-[30px] flex items-center">
                 <p style={{
                     borderBottom: `1px solid ${BORDER_COLOR}`,
-                    width: '100px'
+                    width: "100px"
                 }}></p>
                 <p className="text-center mx-[20px]">OR</p>
                 <p style={{
                     borderBottom: `1px solid ${BORDER_COLOR}`,
-                    width: '100px'
+                    width: "100px"
                 }}></p>
             </div>
             <div className="w-[80vw] md:w-[60vw] lg:w-[40vw]">
@@ -52,7 +52,7 @@ function LoginForm() {
                     name="basic"
                     layout="vertical"
                     style={{
-                        width: '100%',
+                        width: "100%",
                     }}
                     onFinish={onFinish}
                     onFinishFailed={onFinishFailed}
@@ -98,11 +98,11 @@ function LoginForm() {
                             size='large'
                             style={{
                                 backgroundColor: `${ORANGE_COLOR}`,
-                                border: 'none',
-                                color: '#fff',
-                                width: '100%',
-                                borderRadius: '100px',
-                                marginTop: '50px',
+                                border: "none",
+                                color: "#fff",
+                                width: "100%",
+                                borderRadius: "100px",
+                                marginTop: "50px",
                                 fontWeight: 500
                             }} htmlType="submit">
                             Login
