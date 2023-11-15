@@ -93,7 +93,7 @@ function Header() {
                         </div>
                     </div>
 
-                    <div className="flex items-center">
+                    <div className="hidden lg:flex items-center">
                         <Link href="/login">
                             <Button
                                 className="hidden lg:flex"
@@ -105,7 +105,6 @@ function Header() {
                             >
                                 Login
                             </Button>
-                            <LoginIcon className="lg:hidden text-gray-600" />
                         </Link>
                         <Link href="/register">
                             <Button
@@ -122,7 +121,15 @@ function Header() {
                             >
                                 Register
                             </Button>
-                            <PersonAddAltOutlinedIcon className="lg:hidden mx-[10px] text-gray-600" />
+                        </Link>
+                        <DarkModeOutlinedIcon className="text-[24px] text-gray-600 hover:text-[#fd7e14] cursor-pointer" />
+                    </div>
+                    <div className="flex lg:hidden items-center">
+                        <Link href="/login">
+                            <LoginIcon className="text-gray-600" />
+                        </Link>
+                        <Link href="/register">
+                            <PersonAddAltOutlinedIcon className="mx-[10px] text-gray-600" />
                         </Link>
                         <DarkModeOutlinedIcon className="text-[24px] text-gray-600 hover:text-[#fd7e14] cursor-pointer" />
                     </div>
