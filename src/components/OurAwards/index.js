@@ -15,7 +15,7 @@ function OurAwards() {
                     color: `${ORANGE_COLOR}`
                 }}>Awards</span>
             </h1>
-            <div className="grid gap-[20px] grid-cols-3">
+            <div className="grid gap-[20px] grid-cols-1 md:grid-cols-3">
                 <AwardItem />
                 <AwardItem />
                 <AwardItem />

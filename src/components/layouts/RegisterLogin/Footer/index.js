@@ -19,7 +19,7 @@ function Footer() {
                     style={{
                         width: '90px',
                         height: '18px',
-                        objectFit: 'cover'
+                        objectFit: 'contain'
                     }}
                 />
                 <p className="text-[15px] text-gray-500 font-[500] ml-[6px]">© 2023</p>

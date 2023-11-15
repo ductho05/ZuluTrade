@@ -8,7 +8,7 @@ import IMAGE from "../../assets/images/homepages/How-it-works-creative.png"
 
 function HowItWork() {
     return (
-        <div className="flex justify-center items-center">
+        <div className="flex flex-col md:flex-row justify-center items-center">
             <Image src={IMAGE}
                 style={{
                     width: '480px',
@@ -16,7 +16,7 @@ function HowItWork() {
                     objectFit: 'contain'
                 }}
             />
-            <div className="ml-[100px]">
+            <div className="lg:ml-[100px] md:ml-[40px]">
                 <h1
                     style={{
                         color: `${DARK_COLOR}`

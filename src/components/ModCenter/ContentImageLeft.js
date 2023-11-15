@@ -6,15 +6,15 @@ import IMAGE from "../../assets/images/homepages/trading-is-hard-creative.png"
 
 function ContentImageLeft() {
     return (
-        <div className="flex justify-center items-center">
+        <div className="flex flex-col md:flex-row justify-center items-center">
             <Image src={IMAGE}
                 style={{
                     width: '426px',
-                    height: '327px',
+                    height: '320px',
                     objectFit: 'contain'
                 }}
             />
-            <div className="ml-[100px]">
+            <div className="md:ml-[100px]">
                 <h1
                     style={{
                         color: `${DARK_COLOR}`

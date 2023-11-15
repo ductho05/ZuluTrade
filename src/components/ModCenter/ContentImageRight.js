@@ -8,8 +8,8 @@ import IMAGE from "../../assets/images/homepages/winner.png"
 
 function ContentImageRight() {
   return (
-    <div className="flex justify-center items-center h-max">
-      <div className="mr-[100px] flex flex-col items-end">
+    <div className="flex flex-col md:flex-row justify-center items-center h-max mt-[30px] md:mt-0">
+      <div className="md:mr-[100px] flex flex-col items-end">
         <h1
           style={{
             color: `${DARK_COLOR}`

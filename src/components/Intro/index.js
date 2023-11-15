@@ -15,7 +15,7 @@ const defaultOptions = {
 function Intro() {
 
     return (
-        <div className="py-[60px] px-[40px]">
+        <div className="p-[20px] md:py-[60px] md:px-[40px]">
             <div className="p-[10px] flex flex-col justify-center items-center">
                 <p
                     style={{
@@ -49,8 +49,8 @@ function Intro() {
             </div>
             <Lottie
                 options={defaultOptions}
-                height={400}
-                width={400}
+                height={300}
+                width={300}
             />
         </div>
     )

@@ -15,7 +15,7 @@ export default function Home() {
         style={{
           backgroundColor: `${BODY_COLOR}`
         }}
-        className="pt-[230px] px-[100px] pb-[50px]"
+        className="pt-[360px] md:pt-[230px] px-[10px] lg:px-[100px] pb-[50px]"
       >
         <TopLeader />
       </div>
@@ -24,7 +24,7 @@ export default function Home() {
         style={{
           backgroundColor: `${BODY_COLOR}`
         }}
-        className="px-[100px]"
+        className="px-[10px] lg:px-[100px]"
       >
         <Following />
       </div>
@@ -32,7 +32,7 @@ export default function Home() {
         style={{
           backgroundColor: `#fff`
         }}
-        className="px-[100px]"
+        className="px-[10px] lg:px-[100px]"
       >
         <OurAwards />
       </div>

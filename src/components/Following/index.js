@@ -8,12 +8,12 @@ function Following() {
             className="pb-[40px]"
         >
             <div className="grid gap-[20px] grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-                <div className="pr-[40px]">
+                <div className="md:pr-[40px]">
                     <h1
                         style={{
                             color: `${DARK_COLOR}`
                         }}
-                        className="text-[25px] font-[600]"
+                        className="text-[25px] font-[600] text-center md:text-start"
                     >
                         AMOUNT FOLLOWING - HIGHEST AUM
                     </h1>
@@ -21,7 +21,7 @@ function Following() {
                         style={{
                             color: `${DARK_COLOR}`
                         }}
-                        className="text-[16px] font-[400]"
+                        className="text-[16px] font-[400] text-center md:text-start"
                     >
                         Strategies that have positive momentum and move near ATHs (All Time Highs)
                     </p>
