@@ -105,7 +105,7 @@ function Header() {
                             >
                                 Login
                             </Button>
-                            <LoginIcon className="lg:hidden flex text-gray-600" />
+                            <LoginIcon className="lg:hidden text-gray-600" />
                         </Link>
                         <Link href="/register">
                             <Button
@@ -122,7 +122,7 @@ function Header() {
                             >
                                 Register
                             </Button>
-                            <PersonAddAltOutlinedIcon className="lg:hidden flex mx-[10px] text-gray-600" />
+                            <PersonAddAltOutlinedIcon className="lg:hidden mx-[10px] text-gray-600" />
                         </Link>
                         <DarkModeOutlinedIcon className="text-[24px] text-gray-600 hover:text-[#fd7e14] cursor-pointer" />
                     </div>
